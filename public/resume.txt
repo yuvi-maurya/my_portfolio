@@ -1,0 +1,24 @@
+Yuvraj Maurya
+Full Stack Specialist & Quantitative Trader
+Lucknow, India | +91 8808373027
+
+SUMMARY:
+A visionary developer bridging the gap between high-frequency financial intelligence and high-performance web engineering. Expert in architecting decentralized systems, algorithmic trading engines, and premium user experiences.
+
+TECHNICAL ARSENAL:
+- Languages: TypeScript, JavaScript, Python
+- Frontend: React, Next.js, Tailwind CSS, Framer Motion
+- Backend: Node.js, Firebase, PostgreSQL, Redis, FastAPI
+- Trading: Quantitative Analysis, Algorithmic Execution, Technical Indicators
+
+EXPERIENCE:
+- Quant-Tech Lead: Architecting proprietary trading strategies and terminal-style UIs.
+- Full Stack Developer: Building scalable web applications with advanced interactive features.
+
+PROJECTS:
+- Crypto Terminal Pro: Real-time crypto monitoring with order book visualization.
+- EduNexus LMS: A decentralized learning platform.
+- QuantAlpha Bot: Strategy-based trading automation.
+
+EDUCATION:
+- B.Tech in Information Technology

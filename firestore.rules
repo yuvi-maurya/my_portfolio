@@ -1,0 +1,40 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper: Check if the user is Yuvraj (the admin)
+    function isAdmin() {
+      return request.auth != null && request.auth.token.email == "yuvrajmaurya85420@gmail.com";
+    }
+
+    // Capture all: Default Deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Contact Messages
+    match /messages/{messageId} {
+      allow create: if true; // Let anyone send a message
+      allow read: if isAdmin(); // Only Yuvraj can read messages
+    }
+
+    // Projects Data
+    match /projects/{projectId} {
+      allow read: if true; // Publicly viewable
+      allow write: if isAdmin(); // Only Yuvraj can manage projects
+    }
+
+    // Blog Posts
+    match /posts/{postId} {
+      allow read: if true; // Publicly viewable
+      allow write: if isAdmin(); // Only Yuvraj can manage posts
+    }
+
+    // System Analytics
+    match /system/stats {
+      allow get: if true; // Publicly see visitor count
+      allow update: if true; // Allow incrementing visitor count (frontend logic handles this)
+      allow list, create, delete: if isAdmin();
+    }
+  }
+}
