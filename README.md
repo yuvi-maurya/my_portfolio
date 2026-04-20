@@ -1,7 +1,7 @@
- # 🌐 Suraj's Portfolio Website
+ # 🌐 yuvaraj's Portfolio Website
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-45aa-adb2-6e31ae763ed6" alt="Banner" width="100%" />
+  <img src="C:\Users\abc\Downloads\yuviert.img.jpeg"alt="Banner" width="100%" />
 </div>
 
 ---
@@ -12,13 +12,13 @@ It is designed to be modern, responsive, and user-friendly.
 
 ---
 
-## 🚀 Features
-- ✅ Fully Responsive Design (Mobile + Desktop)
-- 🎨 Modern UI/UX Design
-- 📁 Projects Showcase Section
-- 📞 Contact Form
-- 🔐 Login & Signup System (if implemented)
-- ⚡ Fast Performance
+##  Features
+- Fully Responsive Design (Mobile + Desktop)
+-  Modern UI/UX Design
+-  Projects Showcase Section
+-  Contact Form
+-  Login & Signup System (if implemented)
+-  Fast Performance
 
 ---
 
@@ -33,23 +33,23 @@ It is designed to be modern, responsive, and user-friendly.
 ---
 
 ##  Screenshot
-![Portfolio Screenshot](https://via.placeholder.com/800x400.png?text=Your+Portfolio+Screenshot)
+![Portfolio Screenshot]()
 
- यहाँ अपना real screenshot upload करके link replace कर देना
+
 
 ---
 
 ##  Live Demo
- https://your-portfolio-link.com  
+ https://my-portfolio-tau-henna-79.vercel.app/  
 
-(अगर अभी live नहीं है तो बाद में add कर देना)
+
 
 ---
 
 ##  Installation & Setup
 
-```bash
-git clone https://github.com/your-username/my-portfolio.git
+bash
+git clone https://github.com/yuvi-maurya/my-portfolio.git
 cd my-portfolio
 npm install
 npm run dev
