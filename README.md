@@ -1,7 +1,7 @@
  # 🌐 yuvaraj's Portfolio Website
 
 <div align="center">
-  <img src="C:\Users\abc\Downloads\yuviert.img.jpeg"alt="Banner" width="100%" />
+  <img src="#"alt="Banner" width="100%" />
 </div>
 
 ---
