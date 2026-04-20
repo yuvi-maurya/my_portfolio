@@ -43,7 +43,6 @@ It is designed to be modern, responsive, and user-friendly.
  https://my-portfolio-tau-henna-79.vercel.app/  
 
 
-
 ---
 
 ##  Installation & Setup
