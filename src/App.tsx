@@ -280,7 +280,7 @@ const About = () => {
           <div className="px-6 py-3 glass rounded-2xl border-border-primary flex items-center gap-4">
             <div className="text-right">
               <p className="text-[10px] uppercase tracking-widest font-bold text-text-secondary">Location</p>
-              <p className="text-sm font-bold">Lucknow, India</p>
+              <p className="text-sm font-bold">Prayagraj, India</p>
             </div>
             <div className="w-10 h-10 rounded-full bg-brand-purple flex items-center justify-center">
               <Globe size={20} />
